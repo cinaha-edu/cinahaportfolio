@@ -170,6 +170,28 @@ section {
   height: 80vh;
 }
 
+
+
+.portfolio-pic-1 {
+  width: 200px;         /* Set your uniform width */
+  height: 200px;        /* Set your uniform height */
+  object-fit: cover;    /* Preserves aspect ratio by cropping */
+  object-position: center; /* Keeps the center of the photo focused */
+}
+
+.portfolio-text {
+  margin-top: 2rem;
+}
+
+.portfolio-pic-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin:1rem;
+  gap: 3rem;
+  text-align: center;
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
